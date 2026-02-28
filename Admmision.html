@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+     <link rel="stylesheet" href="college.css">
+</head>
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+<div class="top-header">
+    <div class="header-container">
+        
+        <div class="logo">
+            <img src="iti-logo.png" alt="ITI Logo">
+        </div>
+
+        <div class="header-text">
+            <h1>Govt. Industrial Training Institute</h1>
+            <h1>Pandariya</h1>
+            <p>District Kabirdham C.G. 491559</p>
+        </div>
+
+        <div class="logo">
+            <img src="govt-logo.png" alt="Govt Logo">
+        </div>
+
+    </div>
+</div>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+    <div class="navbar-container">
+
+        <!-- Mobile Button -->
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+        <!-- Menu -->
+        <ul class="nav-links" id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About Us.html">About Us</a></li>
+            <li><a href="Course.html">Course</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="regi_form.html">Registration</a></li>
+            <li><a href="Instructor.html">Instructor</a></li>
+            <li><a href="Admmision.html">Admission</a></li>
+        </ul>
+
+    </div>
+</nav>
+
+<script>
+function toggleMenu(){
+    document.getElementById("menu").classList.toggle("show");
+}
+</script>
+
+    
+
+ <div class="images-container">
+			<img src="copa.png" class="slider">
+		</div>
+
+    
+
+
+
+    
+    <div class="container4">
+
+    <div class="section">
+        <h2>Admission Process</h2>
+        <ul>
+            <li>Application form bharna</li>
+            <li>Required documents submit karna</li>
+            <li>Merit list / counselling</li>
+            <li>Final admission confirmation</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Eligibility Criteria</h2>
+        <ul>
+            <li>Minimum qualification: 8th / 10th pass</li>
+            <li>Age limit as per government norms</li>
+            <li>Trade-specific eligibility</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Required Documents</h2>
+        <ul>
+            <li>Marksheet</li>
+            <li>Aadhar Card</li>
+            <li>Passport size photographs</li>
+            <li>Caste certificate (if applicable)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Online Admission Enquiry</h2>
+
+        <form class="form">
+            <label>Student Name</label>
+            <input type="text" placeholder="Enter student name">
+
+            <label>Mobile Number</label>
+            <input type="text" placeholder="Enter mobile number">
+
+            <label>Select Trade</label>
+            <select>
+                <option>Electrician</option>
+                <option>Fitter</option>
+                <option>Welder</option>
+                <option>COPA</option>
+                <option>Mechanic Diesel</option>
+            </select>
+
+            <label>Qualification</label>
+            <select>
+                <option>8th Pass</option>
+                <option>10th Pass</option>
+            </select>
+
+            <button type="submit">Apply Now</button>
+        </form>
+    </div>
+
+</div>
+<div class="footer">
+&copy Govt. ITI College |  All Right Reserved
+</div>
+</body>
+</html>
